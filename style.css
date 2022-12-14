@@ -37,9 +37,10 @@
 #resultado {
     width: 200px;
     height: 30px;
-    background-color: white;
-    color: black;
+    background-color: gray;
+    color: white;
     margin: auto;
+    margin-bottom: 10px;
     text-align: right;
     font-size: 20px;
     padding: 5px;
