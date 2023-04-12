@@ -1,19 +1,14 @@
-* {
-    margin: 0;
-    padding: 0;
-}
-
-.fundo {
-    background-image: linear-gradient(45deg, black, crimson);
-    height: 100vh;
+body {
+    background-image: linear-gradient(45deg, purple, blue);
+    height: 100%;
     text-align: center;
     color: white;
-} 
+}
 
 .calculadora {
     position: absolute;
     background-color: black;
-    padding: 15px;
+    padding: 30px;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
@@ -23,25 +18,32 @@
 .botao {
     width: 50px;
     height: 50px;
-    background-color: rgb(31, 31, 31);
+    background-color: rgb(65, 59, 59);
     color: white;
     font-size: 20px;
+    outline: none;
     cursor: pointer;
-    margin: 5;
 }
 
 .botao:hover {
     background-color: black;
+    outline: none;
+}
+
+.calculadora table {
+    margin: auto;
 }
 
 #resultado {
-    width: 200px;
+    width: 194px;
+    border-radius: 10px;
     height: 30px;
-    background-color: gray;
-    color: white;
+    background-color: white;
+    color: black;
+    text-align: center;
     margin: auto;
     margin-bottom: 10px;
     text-align: right;
     font-size: 20px;
-    padding: 5px;
+    padding: 10px;
 }
